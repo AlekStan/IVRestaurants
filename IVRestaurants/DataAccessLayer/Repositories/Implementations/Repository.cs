@@ -1,5 +1,5 @@
-﻿using DataAccessLayer.Repositories.Interfaces;
-using Domain.Models;
+﻿using DataAccessLayer.Models;
+using DataAccessLayer.Repositories.Interfaces;
 
 namespace DataAccessLayer.Repositories.Implementations
 {

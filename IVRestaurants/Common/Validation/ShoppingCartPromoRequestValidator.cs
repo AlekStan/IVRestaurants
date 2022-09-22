@@ -1,6 +1,6 @@
-﻿using FluentValidation;
+﻿using Common.Models;
+using FluentValidation;
 using FluentValidation.Results;
-using IVRestaurants.Models;
 
 namespace Common.Validation
 {

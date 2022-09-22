@@ -1,6 +1,6 @@
 using BusinessLogic.Services.Implementations;
 using BusinessLogic.Services.Interfaces;
-using Domain.Models;
+using DataAccessLayer.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,8 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<IVRestaurantsContext>(options =>
    options.UseSqlServer("Server=(localdb)\\MSSqlLocalDb;Database=IVRestaurants;Trusted_Connection=True;"));
 
-builder.Services.AddTransient<IMenuPromoService, MenuPromoService>();
-builder.Services.AddTransient<IShoppingCartService, ShoppingCartService>();
+builder.Services.AddScoped<IMenuPromoService, MenuPromoService>();
+builder.Services.AddScoped<IShoppingCartService, ShoppingCartService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

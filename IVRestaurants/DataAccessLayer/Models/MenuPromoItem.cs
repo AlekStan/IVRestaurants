@@ -1,4 +1,4 @@
-﻿namespace Domain.Models
+﻿namespace DataAccessLayer.Models
 {
     public partial class MenuPromoItem
     {

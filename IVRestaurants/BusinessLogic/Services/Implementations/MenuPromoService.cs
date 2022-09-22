@@ -1,4 +1,5 @@
 ﻿using BusinessLogic.Services.Interfaces;
+using DataAccessLayer.Models;
 using DataAccessLayer.Repositories.Implementations;
 using DataAccessLayer.Repositories.Interfaces;
 using Domain.Models;
