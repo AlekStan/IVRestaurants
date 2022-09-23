@@ -1,6 +1,6 @@
 ﻿using Domain.Models;
 
-namespace IVRestaurants.Models
+namespace Common.Models
 {
     public class ShoppingCartItemRequest
     {

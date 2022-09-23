@@ -2,10 +2,8 @@
 
 namespace Common.Models
 {
-    public class ShoppingCartPromoRequest
+    public class ShoppingCartOrderRequest
     {
         public ShoppingCartDTO ShoppingCart { get; set; }
-
-        public MenuPromoDTO MenuPromo { get; set; }
     }
 }

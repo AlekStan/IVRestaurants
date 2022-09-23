@@ -5,15 +5,17 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IVRestaurants", "IVRestaurants\IVRestaurants.csproj", "{9176BD8C-48E5-48C4-8F46-3DDA321B4BB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{6343E93E-BD05-4D60-9C3B-7D56836A276B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{6343E93E-BD05-4D60-9C3B-7D56836A276B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C8B686C5-FCFE-48C1-88DE-51BDABA4634B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{C8B686C5-FCFE-48C1-88DE-51BDABA4634B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{5B969C30-4F4E-4554-88AC-735DE6C5A18E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{5B969C30-4F4E-4554-88AC-735DE6C5A18E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{20E630F0-6E2F-446F-96A5-B60F143959CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{20E630F0-6E2F-446F-96A5-B60F143959CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.Tests", "BusinessLogic.Tests\BusinessLogic.Tests.csproj", "{BC652F24-B2D4-4867-A181-FABC761D791E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic.Tests", "BusinessLogic.Tests\BusinessLogic.Tests.csproj", "{BC652F24-B2D4-4867-A181-FABC761D791E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{721A86FA-09EC-4E32-8D38-3BEBF1D07F68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BC652F24-B2D4-4867-A181-FABC761D791E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC652F24-B2D4-4867-A181-FABC761D791E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC652F24-B2D4-4867-A181-FABC761D791E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721A86FA-09EC-4E32-8D38-3BEBF1D07F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721A86FA-09EC-4E32-8D38-3BEBF1D07F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721A86FA-09EC-4E32-8D38-3BEBF1D07F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721A86FA-09EC-4E32-8D38-3BEBF1D07F68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

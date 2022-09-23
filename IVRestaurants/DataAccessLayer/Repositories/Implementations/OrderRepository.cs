@@ -3,9 +3,9 @@ using DataAccessLayer.Repositories.Interfaces;
 
 namespace DataAccessLayer.Repositories.Implementations
 {
-    public class MenuItemRepository : Repository<MenuItem>, IMenuItemRepository
+    public class OrderRepository : Repository<Order>, IOrderRepository
     {
-        public MenuItemRepository(IVRestaurantsContext context) : base(context)
+        public OrderRepository(IVRestaurantsContext context) : base(context)
         {
         }
     }
