@@ -5,5 +5,6 @@
         T? GetById(int id);
         void Add(T entity);
         void Delete (T entity);
+        int SaveChanges();
     }
 }

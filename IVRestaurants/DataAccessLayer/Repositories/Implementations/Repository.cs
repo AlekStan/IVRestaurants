@@ -15,5 +15,6 @@ namespace DataAccessLayer.Repositories.Implementations
         public void Delete(T entity) => Context.Set<T>().Remove(entity);
 
         public T? GetById(int id) => Context.Set<T>().Find(id);
+        public int SaveChanges() => Context.SaveChanges();
     }
 }

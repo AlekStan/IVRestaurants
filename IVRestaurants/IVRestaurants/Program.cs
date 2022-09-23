@@ -1,5 +1,7 @@
 using BusinessLogic.Services.Implementations;
 using BusinessLogic.Services.Interfaces;
+using Common.Helpers;
+using Common.Helpers.Interfaces;
 using DataAccessLayer.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +16,8 @@ builder.Services.AddDbContext<IVRestaurantsContext>(options =>
 builder.Services.AddScoped<IMenuPromoService, MenuPromoService>();
 builder.Services.AddScoped<IShoppingCartService, ShoppingCartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IDiscountService, DiscountService>();
+builder.Services.AddScoped<IDateTimeHelper, DateTimeHelper>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
